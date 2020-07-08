@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <h2>TRAVELING APPLICATION / EXPENSE REPORT</h2>
+        <h2>(ใบรายงานเดินทาง / รายงานค่าใช้จ่าย)</h2>
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <a href="#" class="add-info-link1"><i class="zmdi zmdi-chevron-right"></i>ส่วนที่ 1 Outside working requistion the approval from (การขออนุมัติการเดินทางไปทำงานนอกสถานที่)</a>
+                        <div class="add_info1">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first_name">Name</label>
+                                <input type="text" class="form-input" name="first_name" id="first_name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Employee No.</label>
+                                <input type="text" class="form-input" name="last_name" id="last_name" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first_name">Section</label>
+                                <input type="text" class="form-input" name="first_name" id="first_name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Section Code</label>
+                                <input type="text" class="form-input" name="last_name" id="last_name" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first_name">Position</label>
+                                <input type="text" class="form-input" name="first_name" id="first_name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Travel No</label>
+                                <input type="text" class="form-input" name="last_name" id="last_name" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label>Planned</label>
+                            <label>Schedule</label>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group form-icon">
+                                <label for="depart1">Depart</label>
+                                <input type="text" class="form-input" name="depart1" id="depart1" placeholder="MM-DD-YYYY" />
+                            </div>
+                            <div class="form-group form-icon">
+                                <label for="return1">Return</label>
+                                <input type="text" class="form-input" name="return1" id="return1" placeholder="MM-DD-YYYY" />
+                            </div>
+                            <!-- <div class="form-radio">
+                                <label for="gender">Gender</label>
+                                <div class="form-flex">
+                                    <input type="radio" name="gender" value="male" id="male" checked="checked" />
+                                    <label for="male">Male</label>
+    
+                                    <input type="radio" name="gender" value="female" id="female" />
+                                    <label for="female">Female</label>
+                                </div>
+                            </div> -->
+                        </div>
+                       
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-input" name="address" id="address" />
+                        </div>
+                        <div class="form-group">
+                            <label for="purpose">Purpose</label>
+                            <input type="text" class="form-input" name="purpose" id="purpose" />
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="appreved">Appreved</label>
+                                <input type="text" class="form-input" name="appreved" id="appreved" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Re.....</label>
+                                <input type="text" class="form-input" name="last_name" id="last_name" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                               <label for="duration">Duration</label> 
+                                <input type="text" class="form-input" name="appreved" id="appreved" value=""/>
+                            </div>
+                        </div>
+                        <div class="form-radio">
+                            <label for="gender">ข้อมูลโทรศัพท์ส่วนบุคคล (Personal Moblie Phone)</label>
+                            <div class="form-flex">
+                                <input type="radio" name="gender" value="male" id="male" checked="checked" />
+                                <label for="male">นำโทรศัพท์ส่วนบุคคลติดตามไปด้วย</label>
+
+                                <input type="radio" name="gender" value="female" id="female" />
+                                <label for="female">ฝากโทรศัพท์ส่วนบุคคลไว้ที่หัวหน้างาน</label>
+                            </div>
+                        </div>
+                        <!-- <div class="form-row">
+                            <div class="form-group">
+                                <label for="password">Purpose</label>
+                                <input type="text" class="form-input" name="password" id="password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re_password">Repeat your password</label>
+                                <input type="password" class="form-input" name="re_password" id="re_password"/>
+                            </div>
+                        </div> -->
+                    </div>
+                        <div class="form-text">
+                            <a href="#" class="add-info-link2"><i class="zmdi zmdi-chevron-right"></i>ส่วนที่ 2 Actual schedule & Expense Report รายงานการเดินทางและค่าใช้จ่าย (ให้บันทึกเวลาเป็นหน่วยนาที )</a>
+                            <div class="add_info2">
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <label>Planned</label>
+                                        <label>Schedule</label>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group form-icon">
+                                            <label for="depart2">Depart</label>
+                                            <input type="text" class="form-input" name="depart2" id="depart2" placeholder="MM-DD-YYYY" />
+                                        </div>
+                                        <div class="form-group form-icon">
+                                            <label for="return2">Return</label>
+                                            <input type="text" class="form-input" name="return2" id="return2" placeholder="MM-DD-YYYY" />
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-radio">
+                                        <label for="expense">Expense Report</label>
+                                        <div class="form-flex">
+                                            <input type="radio" name="expense" value="advance" id="advance" />
+                                            <label for="advance">Advance(เบิกค่าใช้จ่าย)</label>
+                                            <input type="radio" name="expense" value="notadvance" id="notadvance" checked="checked" />
+                                            <label for="notadvance">Not Advance(ไม่เบิกค่าใช้จ่าย)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <div class="select-list">
+                                        <select name="city" id="city" required>
+                                            <option value="NY">NewYork</option>
+                                            <option value="IC">IceLand</option>
+                                            <option value="canada">Canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <table>
+                                    
+                                </table>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="ยืนยัน"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
